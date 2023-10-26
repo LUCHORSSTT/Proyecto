@@ -9,13 +9,13 @@ CREATE TABLE `productos` (
   `descripcion` varchar(100) NOT NULL,
   `color` varchar(20) NOT NULL,
   `precio` float NOT NULL,
-  `cantidad` varchar(3) NOT NULL,
-  `cantidad_min` int(11) NOT NULL,
+  `cantidad_local` varchar(3) NOT NULL,
+  `cantidad_deposito` int(11) NOT NULL,
   `categorias` varchar(50) NOT NULL,
   `imagen` longblob NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-INSERT INTO `productos` (`id`, `nombre`, `descripcion`, `color`, `precio`, `cantidad`, `cantidad_min`, `categorias`, `imagen`) VALUES
+INSERT INTO `productos` (`id`, `nombre`, `descripcion`, `color`, `precio`, `cantidad_local`, `cantidad_deposito`, `categorias`, `imagen`) VALUES
 (20, 'Cuna', 'Baranda deslizable S/cajon 92x72x126', 'Blanco/rosa', 58500, '1', 0, 'Bebe', '')
 
 

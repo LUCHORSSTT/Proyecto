@@ -26,8 +26,8 @@
 <th>Descripcion</th>
 <th>Color</th>
 <th>Precio</th>
-<th>Cantidad</th>
-<th>Cantidad minima</th>
+<th>Cantidad Local</th>
+<th>Cantidad Deposito</th>
 <th>Categorias</th>
 <th>Imagen</th>
 <th>Acciones</th>

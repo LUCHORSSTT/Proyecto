@@ -53,7 +53,7 @@ $productos = mysqli_fetch_assoc($resultado);
 <div class="row">
 <div class="col-sm-6">
 <div class="mb-3">
-<label for="cantidad" class="form-label">Cantidad *</label>
+<label for="cantidad" class="form-label">Cantidad Local *</label>
 <input type="number"  id="cantidad" name="cantidad"  value="<?php echo $productos ['cantidad']; ?>" class="form-control" required>
 </div>
 </div>
@@ -61,7 +61,7 @@ $productos = mysqli_fetch_assoc($resultado);
 <div class="col-sm-6">
 
 <div class="mb-3">
-<label for="cantidad" class="form-label">Cantidad minima *</label>
+<label for="cantidad" class="form-label">Cantidad Deposito *</label>
 <input type="number"  id="cantidamin" name="cantidadmin" value="<?php echo $productos ['cantidad']; ?>" class="form-control" required>
 </div>
 
@@ -73,15 +73,15 @@ $productos = mysqli_fetch_assoc($resultado);
     <div class="mb-3">
 <label for="categorias" class="form-label">Categorias *</label>
 <select name="categorias" id="categorias" class="form-control" required>
-    <option value="muebles">muebles</option>
-    <option value="sillas">sillas</option>
-    <option value="mesas">mesas</option>
-    <option value="colchones">colchones</option>
-    <option value="sommier">sommier</option>
-    <option value="deco">deco</option>
-    <option value="almohadas">almohadas</option>
-    <option value="dormitorio">dormitorio</option>
-    <option value="bebe">bebe</option>
+    <option value="muebles">Muebles</option>
+    <option value="sillas">Sillas</option>
+    <option value="mesas">Mesas</option>
+    <option value="colchones">Colchones</option>
+    <option value="sommier">Sommier</option>
+    <option value="deco">Deco</option>
+    <option value="almohadas">Almohadas</option>
+    <option value="dormitorio">Dormitorio</option>
+    <option value="bebe">Bebe</option>
 
   </select>
     </div>   
