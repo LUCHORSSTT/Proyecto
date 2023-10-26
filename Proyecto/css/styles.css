@@ -1,0 +1,160 @@
+.catmuebles {
+    background: #05e3be;
+    color: #5a5c69;
+    font-weight: bold;
+    padding: 15px;
+    border: 2px solid #5a5c69;
+    border-radius: 6px;
+    text-align:center;
+    width: 90%;
+    margin: 20px;
+    display: inline-block;
+    
+    }
+    .catsillas {
+    background: #c2b7f2;
+    color: #5a5c69;
+    font-weight: bold;
+    padding: 15px;
+    border: 2px solid #5a5c69;
+    border-radius: 6px;
+    text-align:center;
+    width: 90%;
+    margin: 20px;
+    display: inline-block;
+    
+    }
+    .catmesas {
+    background: #C9F2B7;
+    color: #5a5c69;
+    font-weight: bold;
+    padding: 15px;
+    border: 2px solid #5a5c69;
+    border-radius: 6px;
+    text-align:center;
+    width: 90%;
+    margin: 20px;
+    display: inline-block;
+    }
+    .catcolchones {
+    background: #f9bd93;
+    color: #5a5c69;
+    font-weight: bold;
+    padding: 15px;
+    border: 2px solid #5a5c69;
+    border-radius: 6px;
+    text-align:center;
+    width: 90%;
+    margin: 20px;
+    display: inline-block;
+    
+    }
+    .catsommier
+    {
+    background: #fbf4136b;
+    color: #5a5c69;
+    font-weight: bold;
+    padding: 15px;
+    border: 2px solid #5a5c69;
+    border-radius: 6px;
+    text-align:center;
+    width: 90%;
+    margin: 20px;   
+    display: inline-block;
+    }
+    .catdeco {
+    background: #5a5c698c;
+    color: #5a5c69;
+    font-weight: bold;
+    padding: 15px;
+    border: 2px solid #5a5c69;
+    border-radius: 6px;
+    text-align:center;
+    width: 90%;
+    margin: 20px;  
+    display: inline-block;
+    
+    }
+    .catalmohadas {
+    background: #7f8bb9;
+    color: #5a5c69;
+    font-weight: bold;
+    padding: 15px;
+    border: 2px solid #5a5c69;
+    border-radius: 6px;
+    text-align:center;
+    width: 90%;
+    margin: 20px;  
+    display: inline-block;
+    
+    }
+    .catdormitorio {
+        background: #b7ccf2;
+        color: #5a5c69;
+        font-weight: bold;
+        padding: 15px;
+        border: 2px solid #5a5c69;
+        border-radius: 6px;
+        text-align:center;
+        width: 90%;
+        margin: 20px;   
+        display: inline-block;
+    
+    }
+    .catbebe {
+    background: #eff2b7;
+    color: #5a5c69;
+    font-weight: bold;
+    padding: 15px;
+    border: 2px solid #5a5c69;
+    border-radius: 6px;
+    text-align:center;
+    width: 90%;
+    margin: 20px;  
+    display: inline-block;
+    display: inline-block;
+    
+    
+    }
+    .soon 
+    {
+        background: #ffffff;
+    color: #5a5c69;
+    font-weight: bold;
+    padding: 15px;
+    border: 2px solid #5a5c69;
+    border-radius: 6px;
+    text-align:center;
+    width: 97%;
+    margin: 20px; 
+    display: inline-block;
+    
+    }
+    /* colores para tabla */
+    .muebles {
+         font-weight: bold; padding: 15px; border-left:20px solid #05e3be;
+    }
+    .sillas {
+         font-weight: bold; padding: 15px; border-left:20px solid #c2b7f2;
+    }
+    .mesas {
+        font-weight: bold; padding: 15px; border-left:20px solid #C9F2B7;
+    }
+    .colchones {
+        font-weight: bold; padding: 15px; border-left:20px solid #fbf4136b; 
+    }
+    .sommier {
+        font-weight: bold; padding: 15px; border-left:20px solid #f9bd93;
+    }
+    .deco {
+        font-weight: bold; padding: 15px; border-left:20px solid #5a5c698c;
+    }
+    .almohadas {
+        font-weight: bold; padding: 15px; border-left:20px solid #7f8bb9;
+    }
+    .dormitorio {
+        font-weight: bold; padding: 15px; border-left:20px solid #b7ccf2;
+    }
+    .bebe {
+        font-weight: bold; padding: 15px; border-left:20px solid #eff2b7;
+    }

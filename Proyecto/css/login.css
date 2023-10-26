@@ -1,0 +1,64 @@
+body {
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#login {
+    margin-top: 50px;
+}
+
+#login-box {
+    background: #f7f7f7;
+    padding: 50px;
+    border: 1px solid #ccc;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1.text-center {
+    background: #ccc;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-control {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background: #f7f7f7;
+    color: #333;
+}
+
+input[type="submit"], a[type="button"] {
+    background: #333;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-decoration: none;
+}
+
+input[type="submit"]:hover, a[type="button"]:hover {
+    background: #555;
+}
