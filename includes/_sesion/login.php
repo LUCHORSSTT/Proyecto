@@ -15,7 +15,7 @@
                 <div id="login-column" class="col-md-6">
                     <div id="login-box" class="col-md-12">
                         <form id="login-form" class="form" action="" method="post">
-                            <h1 class="text-center">Inisiar Sesion</h1>
+                            <h1 class="text-center">Iniciar Sesion</h1>
                             <div class="form-group">
                                 <label for="username">Correo:</label><br>
                                 <input type="text" name="correo" id="correo" class="form-control" required>
@@ -26,11 +26,10 @@
                             </div>
                             <div class="form-group">
                              <br>
-                                <input type="submit"class="btn btn-success btn-md space" value="ingresar">
+                                <input type="submit"class="btn btn-success btn-md space" value="Ingresar">
                                 <div id="register-link" class="text-right">
                                     <br>
-                                <a href="registros.php"><input type="button"  class="btn btn-primary space" value="registrarse"></a>
-                            </div>
+                                <a href="registros.php" class="btn" type="button">Registrarse</a>
                             </div>
                         </form>
                     </div>

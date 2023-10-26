@@ -28,7 +28,6 @@ function selectData(respuesta = '') {
             html += `    
             <tr>
             <td>${datosTabla.nombre}</td>
-            <td>${datosTabla.telefono}</td>
             <td>${datosTabla.correo}</td>
             <td>${datosTabla.password}</td>
             <td>${datosTabla.rango}</td>

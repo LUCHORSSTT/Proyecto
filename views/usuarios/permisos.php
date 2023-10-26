@@ -55,7 +55,6 @@
 
     <tr>
     <th>Nombre</th>
-    <th>Telefono</th>
     <th>Correo</th>
     <th>Contraseña</th>
     <th>Permiso</th>

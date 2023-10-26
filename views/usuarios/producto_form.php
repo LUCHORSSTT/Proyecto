@@ -58,15 +58,15 @@
     <div class="mb-3">
 <label for="categorias" class="form-label">Categorias *</label>
 <select name="categorias" id="categorias" class="form-control" required>
-    <option value="muebles">muebles</option>
-    <option value="sillas">sillas</option>
-    <option value="mesas">mesas</option>
-    <option value="colchones">colchones</option>
-    <option value="sommier">sommier</option>
-    <option value="deco">deco</option>
-    <option value="almohadas">almohadas</option>
-    <option value="dormitorio">dormitorio</option>
-    <option value="bebe">bebe</option>
+    <option value="muebles">Muebles</option>
+    <option value="sillas">Sillas</option>
+    <option value="mesas">Mesas</option>
+    <option value="colchones">Colchones</option>
+    <option value="sommier">Sommier</option>
+    <option value="deco">Deco</option>
+    <option value="almohadas">Almohadas</option>
+    <option value="dormitorio">Dormitorio</option>
+    <option value="bebe">Bebe</option>
 
   </select>
     </div>   

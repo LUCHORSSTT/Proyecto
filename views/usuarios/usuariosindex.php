@@ -23,10 +23,9 @@
 
 <tr>
 <th>Nombre</th>
-<th>Telefono</th>
 <th>Correo</th>
 <th>Contraseña</th>
-<th>registro</th>
+<th>Registro</th>
 
 
 </tr>
@@ -37,7 +36,7 @@
 
 <?php
 
-$sql = "SELECT  nombre, password, telefono, correo,registro FROM user WHERE correo ='$actualsesion'";
+$sql = "SELECT  nombre, password, correo,registro FROM user WHERE correo ='$actualsesion'";
 $usuarios = mysqli_query($conexion, $sql);
 if($usuarios -> num_rows > 0){
 foreach($usuarios as $key => $row ){
@@ -48,7 +47,6 @@ foreach($usuarios as $key => $row ){
 ?>
 <tr>
 <td><?php echo $row['nombre']; ?></td>
-<td><?php echo $row['telefono']; ?></td>
 <td><?php echo $row['correo']; ?></td>
 <td><?php echo $row['password']; ?></td>
 <td><?php echo $row['registro']; ?></td>

@@ -125,7 +125,7 @@ if(confirmacion){
     console.log(response)})
 }
 })
-//C
+
 $('#table-data').on('click', '.eliminar', function(e){
     e.preventDefault()
     const id = $(this).data('id')
@@ -149,7 +149,7 @@ $('#table-data').on('click', '.eliminar', function(e){
 } 
 selectData()  
 })
-//d
+
 $('#btnBuscar').click(function() {
     const seleccion = $('#ordenar').val()
     selectData(seleccion);

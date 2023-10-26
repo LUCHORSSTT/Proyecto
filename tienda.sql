@@ -16,7 +16,7 @@ CREATE TABLE `productos` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `productos` (`id`, `nombre`, `descripcion`, `color`, `precio`, `cantidad`, `cantidad_min`, `categorias`, `imagen`) VALUES
-(20, 'Jose', 'Baranda deslizable S/cajon 92x72x126', 'Blanco/rosa', 58500, '1', 0, 'Bebe', '')
+(20, 'Cuna', 'Baranda deslizable S/cajon 92x72x126', 'Blanco/rosa', 58500, '1', 0, 'Bebe', '')
 
 
 CREATE TABLE `user` (
@@ -24,16 +24,16 @@ CREATE TABLE `user` (
   `nombre` varchar(50) NOT NULL,
   `correo` varchar(50) DEFAULT NULL,
   `password` varchar(16) DEFAULT NULL,
-  `telefono` varchar(15) DEFAULT NULL COMMENT '\r\n',
   `registro` timestamp NULL DEFAULT current_timestamp() COMMENT 'CURRENT_TIMESTAMP'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 
-INSERT INTO `user` (`id`, `nombre`, `correo`, `password`, `telefono`, `registro`) VALUES
-(1, 'Administrador', 'a@gmail.com', '54321', '', '2023-06-5 14:08:46'),
-(2, 'Luciano', 'ab@gmail.com', '12345', '', '2023-06-13 14:13:22'),
-(3, 'horacio', 'usuario@gmail.com', '147852', '', '2023-06-13 14:13:36'),
-(9, 'Jose', 'me@gmail.com', '12345', '', '2023-06-13 17:41:46');
+
+INSERT INTO `user` (`id`, `nombre`, `correo`, `password`, `registro`) VALUES
+(1, 'Administrador', 'a@gmail.com', '54321', '2023-06-5 14:08:46'),
+(2, 'Luciano', 'ab@gmail.com', '12345', '2023-06-13 14:13:22'),
+(3, 'horacio', 'usuario@gmail.com', '147852', '2023-06-13 14:13:36'),
+(9, 'Jose', 'me@gmail.com', '12345', '2023-06-13 17:41:46');
 
 ALTER TABLE `productos`
   ADD PRIMARY KEY (`id`),

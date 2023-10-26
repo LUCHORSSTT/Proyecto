@@ -18,7 +18,7 @@
                         <form id="login-form" class="form" action="" method="post">
                             <h1 class="text-center">Registro</h1>
                             <div class="form-group">
-                            <label for="nombre" class="form-label">Nombre *</label>
+                            <label for="nombre" class="form-label">Nombre: *</label>
                             <input type="text"  id="nombre" name="nombre" class="form-control" required>
                             </div>
                             <div class="form-group">
@@ -29,12 +29,6 @@
                                 <label for="password">Contraseña:</label><br>
                                 <input type="password" name="password" id="password" class="form-control" required>
                             </div>
-                            <div class="form-group">
-                                  <label for="telefono" class="form-label">Telefono *</label>
-                                <input type="tel"  id="telefono" name="telefono" class="form-control" required>
-                                <input type="hidden" name="accion" value="insertar_usuarios">
-                            </div>
-                           
 
                                 <div class="mb-3">
                                <input type="submit" name="registrar">

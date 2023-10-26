@@ -1,4 +1,3 @@
-
 .catmuebles {
     background: #05e3be;
     color: #5a5c69;
@@ -119,7 +118,7 @@
     }
     .soon 
     {
-        background: #eff2b7;
+        background: #ffffff;
     color: #5a5c69;
     font-weight: bold;
     padding: 15px;
@@ -132,30 +131,30 @@
     
     }
     /* colores para tabla */
-    .electronico {
+    .muebles {
          font-weight: bold; padding: 15px; border-left:20px solid #05e3be;
     }
-    .cocina {
+    .sillas {
          font-weight: bold; padding: 15px; border-left:20px solid #c2b7f2;
     }
-    .farmaceutico {
+    .mesas {
         font-weight: bold; padding: 15px; border-left:20px solid #C9F2B7;
     }
-    .mascotas {
+    .colchones {
         font-weight: bold; padding: 15px; border-left:20px solid #fbf4136b; 
     }
-    .jugueteria {
+    .sommier {
         font-weight: bold; padding: 15px; border-left:20px solid #f9bd93;
     }
-    .automovilstico {
+    .deco {
         font-weight: bold; padding: 15px; border-left:20px solid #5a5c698c;
     }
-    .vestimenta {
+    .almohadas {
         font-weight: bold; padding: 15px; border-left:20px solid #7f8bb9;
     }
-    .telefonia {
+    .dormitorio {
         font-weight: bold; padding: 15px; border-left:20px solid #b7ccf2;
     }
-    .deportes {
+    .bebe {
         font-weight: bold; padding: 15px; border-left:20px solid #eff2b7;
     }

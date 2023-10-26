@@ -49,14 +49,6 @@ value="<?php echo $usuario ['password']; ?>">
 </div>
 
 <div class="mb-3">
-<label for="telefono" class="form-label">Telefono *</label>
-<input type="tel"  id="telefono" name="telefono" class="form-control"
-value="<?php echo $usuario ['telefono']; ?>">
-<input type="hidden" name="accion" value="editar_usuario">
-<input type="hidden" name="id" value="<?php echo $id;?>">
-</div>
-
-<div class="mb-3">
 <button type="submit" class="btn btn-success">Editar</button>
 
 

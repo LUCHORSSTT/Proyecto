@@ -44,7 +44,7 @@ $productos = mysqli_query($conexion, $sql);
 if($productos -> num_rows > 0){
 foreach($productos as $key => $row ){
 ?>
-<!--funcion y estilos para celdas en error-->
+
 <?php
 
 if ($row['cantidad'] <= $row['cantidad_min']) {
@@ -54,7 +54,7 @@ if ($row['cantidad'] <= $row['cantidad_min']) {
   $clase = 'correcto';
 }
  
-// ...
+
 
 ?>
 <style>
@@ -63,7 +63,7 @@ if ($row['cantidad'] <= $row['cantidad_min']) {
         color: #000000;
     }
 </style>
-<!-- empieza la tabla-->
+
 <tr>
 <td <?php echo  'class="'.$row['categorias'] .'"'; ?>><?php echo $row['id']; ?></td>
 <td><?php echo $row['nombre']; ?></td>
@@ -102,7 +102,7 @@ if ($row['cantidad'] <= $row['cantidad_min']) {
 
     ?>
     <tr class="text-center">
-    <td colspan="4">No existe registros</td>
+    <td colspan="4">No existe registro</td>
     </tr>
 
     <?php

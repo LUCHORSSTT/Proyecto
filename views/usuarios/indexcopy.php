@@ -63,7 +63,6 @@ if ($row['cantidad'] <= $row['cantidad_min']) {
         color: #000000;
     }
 </style>
-<!-- empieza la tabla-->
 <tr>
 <td <?php echo  'class="'.$row['categorias'] .'"'; ?>><?php echo $row['id']; ?></td>
 <td><?php echo $row['nombre']; ?></td>

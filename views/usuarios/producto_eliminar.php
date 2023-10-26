@@ -22,8 +22,8 @@
             <form action="../../includes/_functions.php" method="POST">
             <input type="hidden" name="accion" value="eliminar_producto">
             <input type="hidden" name="id" value="<?php echo $_GET['id']; ?>">
-            <input type="submit" name="" value="eliminar" class="btn btn-success">
-            <a href="./" class="btn btn-danger">cancelar</a>
+            <input type="submit" name="" value="Eliminar" class="btn btn-success">
+            <a href="./" class="btn btn-danger">Cancelar</a>
         </div>
     </div>
 
