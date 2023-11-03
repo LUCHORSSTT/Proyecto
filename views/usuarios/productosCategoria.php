@@ -10,7 +10,7 @@
         <div class="container mt-5">
 <div class="row">
 <div class="col-sm-12 mb-3">
-<center><h1>Productos</h1></center>
+<center><h1>Mercaderia</h1></center>
 <a href="producto_agregar.php"><input  class="btn btn-primary" type="button" value="Agregar producto"></a>
 </div>
 <div class="col-sm-12">
@@ -90,7 +90,7 @@ if ($row['cantidad'] <= $row['cantidad_min']) {
   <a>|</a>
   <a href="producto_eliminar.php?id=<?php echo $row['id']?>">
     <div">
-    Eliminar
+      Eliminar
     </div>
   </a>
 </td>

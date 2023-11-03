@@ -38,7 +38,7 @@
 <div class="row">
 <div class="col-sm-6">
 <div class="mb-3">
-<label for="cantidad" class="form-label">Cantidad *</label>
+<label for="cantidad" class="form-label">Cantidad Local *</label>
 <input type="number"  id="cantidad" name="cantidad" class="form-control" required>
 </div>
 </div>
@@ -46,7 +46,7 @@
 <div class="col-sm-6">
 
 <div class="mb-3">
-<label for="cantidad" class="form-label">Cantidad minima *</label>
+<label for="cantidad" class="form-label">Cantidad Deposito *</label>
 <input type="number"  id="cantidad_min" name="cantidad_min" class="form-control" required> 
 </div>
 
