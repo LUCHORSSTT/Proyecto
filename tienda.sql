@@ -71,9 +71,7 @@ CREATE TABLE `user` (
 INSERT INTO `user` (`id`, `nombre`, `correo`, `password`, `registro`) VALUES
 (1, 'Administrador', 'a@gmail.com', '54321', '2023-06-05 17:08:46'),
 (2, 'Luciano', 'ab@gmail.com', '12345', '2023-09-12 17:13:22'),
-(3, 'horacio', 'usuario@gmail.com', '147852', '2023-09-01 17:13:36'),
-(9, 'Jose', 'me@gmail.com', '123345', '2023-10-03 20:41:46'),
-(10, 'Juan', 'a@a', '1', '2023-10-25 14:02:55');
+(10, 'Horacio', 'a@a', '1', '2023-10-25 14:02:55');
 
 --
 -- Índices para tablas volcadas
